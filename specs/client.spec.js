@@ -1,7 +1,5 @@
-import supertest from "supertest"
 import ClientHelper from "../helpers/client.helper"
 import { expect } from "chai"
-import { describe } from "mocha"
 
 describe("C L I E N T S", function () {
   let clientHelper = new ClientHelper()
