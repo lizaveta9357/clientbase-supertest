@@ -1,20 +1,20 @@
 {
   "name": "supertest-framework-from-scrath",
   "version": "1.0.0",
-  "description": "Building supertest mocha chai from scratch",
+  "description": "Clientbase supertest",
   "scripts": {
     "test": "npx mocha --config .mocharc.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lizaveta9357/supertest-framework-from-scrath.git"
+    "url": "git+https://github.com/lizaveta9357/clientbase supertest.git"
   },
   "author": "lizaveta9357",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lizaveta9357/supertest-framework-from-scrath/issues"
+    "url": "https://github.com/lizaveta9357/clientbase supertest/issues"
   },
-  "homepage": "https://github.com/lizaveta9357/supertest-framework-from-scrath#readme",
+  "homepage": "https://github.com/lizaveta9357/clientbase supertest#readme",
   "devDependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.5",
