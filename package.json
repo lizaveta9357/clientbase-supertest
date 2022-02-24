@@ -1,20 +1,20 @@
 {
-  "name": "supertest-framework-from-scrath",
+  "name": "supertest-clientbase",
   "version": "1.0.0",
-  "description": "Clientbase supertest",
+  "description": "supertest clientbase",
   "scripts": {
     "test": "npx mocha --config .mocharc.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lizaveta9357/clientbase supertest.git"
+    "url": "git+https://github.com/lizaveta9357/supertest-clientbase.git"
   },
   "author": "lizaveta9357",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lizaveta9357/clientbase supertest/issues"
+    "url": "https://github.com/lizaveta9357/supertest-clientbase/issues"
   },
-  "homepage": "https://github.com/lizaveta9357/clientbase supertest#readme",
+  "homepage": "https://github.com/lizaveta9357/supertest-clientbase#readme",
   "devDependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.5",
