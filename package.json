@@ -1,0 +1,31 @@
+{
+  "name": "supertest-framework-from-scrath",
+  "version": "1.0.0",
+  "description": "Building supertest mocha chai from scratch",
+  "scripts": {
+    "test": "npx mocha --config .mocharc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizaveta9357/supertest-framework-from-scrath.git"
+  },
+  "author": "lizaveta9357",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizaveta9357/supertest-framework-from-scrath/issues"
+  },
+  "homepage": "https://github.com/lizaveta9357/supertest-framework-from-scrath#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.0",
+    "body-parser": "^1.19.2",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mocha": "^9.2.1",
+    "supertest": "^6.2.2"
+  }
+}
