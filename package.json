@@ -5,16 +5,8 @@
   "scripts": {
     "test": "npx mocha --config .mocharc.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lizaveta9357/supertest-clientbase.git"
-  },
   "author": "lizaveta9357",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lizaveta9357/supertest-clientbase/issues"
-  },
-  "homepage": "https://github.com/lizaveta9357/supertest-clientbase#readme",
   "devDependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.5",

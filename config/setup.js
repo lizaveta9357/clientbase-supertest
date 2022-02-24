@@ -1,14 +1,10 @@
 // ROOT HOOKS
 // LIKE AUTH to save token to env AND data WIPE OUT
+import AuthHelper from "../helpers/auth.helper.js"
 import "dotenv/config"
-import supertest from "supertest"
 
 before(async function () {
-  const request = await supertest(process.env.BASE_URL)
-  await request
-    .post("/user/login")
-    .send({ email: process.env.EMAIL, password: process.env.PASSWORD })
-    .then((res) => {
-      process.env["TOKEN"] = res.body.token
-    })
+  const authHelper = new AuthHelper()
+  await authHelper.login(process.env.EMAIL, process.env.PASSWORD)
+  process.env["TOKEN"] = authHelper.response.body.payload.token
 })
